@@ -1,0 +1,6 @@
+Info: Reading input data from: /home/ozcankaraca/Desktop/master-thesis-ozcankaraca/data-for-testbed/data-for-topology/inputs/input-data-5.json
+Info: Processing peer data.
+Info: Processing connection data.
+Info: Analyzing mesh completeness.
+Info: Checking for missing connections in the full mesh network.
+Success: There is a full mesh among all peers including the lectureStudioServer.

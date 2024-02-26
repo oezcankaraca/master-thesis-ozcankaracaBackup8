@@ -1,0 +1,19 @@
+Path: java-program-for-validation/src/main/java
+
+-----------------------------------------Validation of Network Characteristics and PDF files in Containers------------------------------------------
+In combination, these classes provide a comprehensive toolkit for maintaining and evaluating network integrity and performance in a containerized environment. They ensure that files are consistent across containers (CompareFiles), understand the network layout and settings (YMLParserForConnectionQuality), and measure the actual network characteristics to see if it aligns with expectations (ConnectionQuality).
+
+**1 - ConnectionQuality**
+ The ConnectionQuality class is designed for assessing network performance characteristics within a containerized environment. It facilitates the execution of network tests, such as latency and bandwidth measurements, between different Docker containers. The class integrates functionalities for parsing YAML files to extract network topology and connection details, executing network tests using tools like ping and iperf3, and analyzing the test results. The class primarily works with Docker containers, identifying them by name and executing commands within them to measure network performance metrics. Additionally, it parses JSON data to compare the expected network parameters with the measured ones, calculates error percentages, and determines if the network's performance is within acceptable limits.
+ 
+ **1 - YMLParserForConnectionQuality**
+The YMLParserForConnectionQuality class is designed to parse YAML files that define network topologies and connection settings in a containerized environment. It reads YAML configuration, extracts connection details between nodes, and represents them in a structured format.
+ 
+ **3 - CompareFiles**
+ The CompareFiles class is designed to verify the integrity of files across multiple Docker containers. It achieves this by comparing the SHA-256 hash values of files located in different containers against a reference hash value of an original file. 
+ 
+ -----------------------------------------Monitoring of whole Testbed Process------------------------------------------
+ 
+ **1 - TrackerPeer**
+ The TrackerPeer class acts as a server in a distributed system to track and confirm peer connections. It listens for incoming connections on a specified port and expects to receive confirmation messages from client peers. Upon receiving a confirmation, it increments a counter. The class is designed to measure the time taken to receive confirmations from all expected peers in the network. It starts counting time from the moment the first confirmation is received until the last expected confirmation, allowing for the calculation of the total duration needed for all peers to successfully send their confirmation.  The number of expected confirmations (peers) is defined by an environment variable, allowing for dynamic adjustment based on the deployment setup.
+

@@ -1,0 +1,36 @@
+# Use Maven 3.8.4 with OpenJDK 17 as the build environment
+FROM maven:3.8.4-openjdk-17 AS build
+
+# Set the working directory inside the container to /app
+WORKDIR /app
+
+# Copy the Maven project's pom.xml file into the container
+COPY pom.xml .
+
+# Copy the project's source code into the container
+COPY src ./src
+
+# Compile and package the application using Maven
+RUN mvn package
+
+# Use OpenJDK 17 slim image for the runtime environment
+FROM openjdk:17-slim AS runtime
+
+# Update the package list, install necessary utilities, and clean up the package lists to reduce image size
+RUN apt-get update && \
+    apt-get install -y jq iproute2 iputils-ping iperf3 && \
+    rm -rf /var/lib/apt/lists/*
+
+# Set the working directory in the runtime environment to /app
+WORKDIR /app
+
+# Copy the packaged JAR file from the build stage into the runtime environment
+COPY --from=build /app/target/java-program-for-container-1.0-SNAPSHOT-jar-with-dependencies.jar /app/
+
+# Set an environment variable for the main class to be executed
+ENV MAIN_CLASS=SuperPeer
+
+# Define the container's entry point, which starts the Java application
+ENTRYPOINT ["sh", "-c", "java -cp java-program-for-container-1.0-SNAPSHOT-jar-with-dependencies.jar $MAIN_CLASS"]
+
+

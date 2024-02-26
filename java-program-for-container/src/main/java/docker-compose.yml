@@ -1,0 +1,25 @@
+version: '2'  # Specifies the version of the Docker Compose file format
+
+services:  # Defines the services that make up the application
+
+  grafana:  # The service name for the Grafana instance
+    image: grafana/grafana:latest  # Use the latest Grafana image from Docker Hub
+    ports:
+      - "3000:3000"  # Map port 3000 of the container to port 3000 on the host
+    environment:  # Environment variables for the Grafana service
+      GF_RENDERING_SERVER_URL: "http://renderer:8081/render"  # URL for the rendering service
+      GF_RENDERING_CALLBACK_URL: "http://grafana:3000/"  # Callback URL for the rendering service
+      GF_LOG_FILTERS: "rendering:debug"  # Set log filters, in this case for debugging rendering
+    networks:
+      - fixedips  # Connects Grafana service to the 'fixedips' network
+
+  renderer:  # The service name for the Grafana Image Renderer
+    image: grafana/grafana-image-renderer:latest 
+    ports:
+      - "8081:8081"  # Map port 8081 of the container to port 8081 on the host
+    networks:
+      - fixedips  # Connects Renderer service to the 'fixedips' network
+
+networks:
+  fixedips:  # Definition of the 'fixedips' network
+    external: true  # Indicates that this network is defined outside of this file

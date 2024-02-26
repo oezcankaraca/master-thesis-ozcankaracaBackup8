@@ -1,0 +1,310 @@
+Container Name: p2p-containerlab-topology-23
+Average CPU Usage: 4.06 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-67
+Average CPU Usage: 0.21 %
+Average Memory Usage: 0.67 %
+
+Container Name: p2p-containerlab-topology-39
+Average CPU Usage: 0.30 %
+Average Memory Usage: 0.64 %
+
+Container Name: p2p-containerlab-topology-61
+Average CPU Usage: 0.21 %
+Average Memory Usage: 0.66 %
+
+Container Name: p2p-containerlab-topology-55
+Average CPU Usage: 0.30 %
+Average Memory Usage: 0.66 %
+
+Container Name: p2p-containerlab-topology-42
+Average CPU Usage: 0.13 %
+Average Memory Usage: 0.66 %
+
+Container Name: p2p-containerlab-topology-40
+Average CPU Usage: 0.31 %
+Average Memory Usage: 0.67 %
+
+Container Name: p2p-containerlab-topology-3
+Average CPU Usage: 0.19 %
+Average Memory Usage: 0.65 %
+
+Container Name: p2p-containerlab-topology-16
+Average CPU Usage: 0.28 %
+Average Memory Usage: 0.66 %
+
+Container Name: p2p-containerlab-topology-47
+Average CPU Usage: 0.19 %
+Average Memory Usage: 0.66 %
+
+Container Name: p2p-containerlab-topology-30
+Average CPU Usage: 0.22 %
+Average Memory Usage: 0.67 %
+
+Container Name: p2p-containerlab-topology-33
+Average CPU Usage: 0.18 %
+Average Memory Usage: 0.66 %
+
+Container Name: p2p-containerlab-topology-13
+Average CPU Usage: 0.38 %
+Average Memory Usage: 0.67 %
+
+Container Name: p2p-containerlab-topology-57
+Average CPU Usage: 0.23 %
+Average Memory Usage: 0.65 %
+
+Container Name: p2p-containerlab-topology-19
+Average CPU Usage: 0.29 %
+Average Memory Usage: 0.67 %
+
+Container Name: p2p-containerlab-topology-43
+Average CPU Usage: 0.29 %
+Average Memory Usage: 0.67 %
+
+Container Name: p2p-containerlab-topology-41
+Average CPU Usage: 0.26 %
+Average Memory Usage: 0.67 %
+
+Container Name: p2p-containerlab-topology-59
+Average CPU Usage: 0.26 %
+Average Memory Usage: 0.67 %
+
+Container Name: p2p-containerlab-topology-11
+Average CPU Usage: 0.38 %
+Average Memory Usage: 0.66 %
+
+Container Name: p2p-containerlab-topology-46
+Average CPU Usage: 0.20 %
+Average Memory Usage: 0.64 %
+
+Container Name: p2p-containerlab-topology-1
+Average CPU Usage: 0.27 %
+Average Memory Usage: 0.64 %
+
+Container Name: p2p-containerlab-topology-48
+Average CPU Usage: 0.27 %
+Average Memory Usage: 0.62 %
+
+Container Name: p2p-containerlab-topology-7
+Average CPU Usage: 1.97 %
+Average Memory Usage: 0.63 %
+
+Container Name: p2p-containerlab-topology-17
+Average CPU Usage: 0.60 %
+Average Memory Usage: 0.65 %
+
+Container Name: p2p-containerlab-topology-54
+Average CPU Usage: 0.38 %
+Average Memory Usage: 0.65 %
+
+Container Name: p2p-containerlab-topology-38
+Average CPU Usage: 0.30 %
+Average Memory Usage: 0.64 %
+
+Container Name: p2p-containerlab-topology-21
+Average CPU Usage: 0.35 %
+Average Memory Usage: 0.64 %
+
+Container Name: p2p-containerlab-topology-71
+Average CPU Usage: 0.28 %
+Average Memory Usage: 0.63 %
+
+Container Name: p2p-containerlab-topology-29
+Average CPU Usage: 0.20 %
+Average Memory Usage: 0.63 %
+
+Container Name: p2p-containerlab-topology-10
+Average CPU Usage: 0.20 %
+Average Memory Usage: 0.63 %
+
+Container Name: p2p-containerlab-topology-52
+Average CPU Usage: 0.20 %
+Average Memory Usage: 0.64 %
+
+Container Name: p2p-containerlab-topology-15
+Average CPU Usage: 0.21 %
+Average Memory Usage: 0.60 %
+
+Container Name: p2p-containerlab-topology-18
+Average CPU Usage: 0.30 %
+Average Memory Usage: 0.68 %
+
+Container Name: p2p-containerlab-topology-51
+Average CPU Usage: 0.28 %
+Average Memory Usage: 0.61 %
+
+Container Name: p2p-containerlab-topology-20
+Average CPU Usage: 0.30 %
+Average Memory Usage: 0.62 %
+
+Container Name: p2p-containerlab-topology-44
+Average CPU Usage: 0.32 %
+Average Memory Usage: 0.62 %
+
+Container Name: p2p-containerlab-topology-66
+Average CPU Usage: 0.34 %
+Average Memory Usage: 0.62 %
+
+Container Name: p2p-containerlab-topology-36
+Average CPU Usage: 0.27 %
+Average Memory Usage: 0.62 %
+
+Container Name: p2p-containerlab-topology-4
+Average CPU Usage: 0.19 %
+Average Memory Usage: 0.61 %
+
+Container Name: p2p-containerlab-topology-74
+Average CPU Usage: 0.22 %
+Average Memory Usage: 0.59 %
+
+Container Name: p2p-containerlab-topology-73
+Average CPU Usage: 0.27 %
+Average Memory Usage: 0.59 %
+
+Container Name: p2p-containerlab-topology-65
+Average CPU Usage: 0.22 %
+Average Memory Usage: 0.58 %
+
+Container Name: p2p-containerlab-topology-24
+Average CPU Usage: 0.90 %
+Average Memory Usage: 0.59 %
+
+Container Name: p2p-containerlab-topology-49
+Average CPU Usage: 0.19 %
+Average Memory Usage: 0.58 %
+
+Container Name: p2p-containerlab-topology-22
+Average CPU Usage: 0.16 %
+Average Memory Usage: 0.58 %
+
+Container Name: p2p-containerlab-topology-9
+Average CPU Usage: 0.17 %
+Average Memory Usage: 0.57 %
+
+Container Name: p2p-containerlab-topology-50
+Average CPU Usage: 0.27 %
+Average Memory Usage: 0.57 %
+
+Container Name: p2p-containerlab-topology-72
+Average CPU Usage: 0.34 %
+Average Memory Usage: 0.56 %
+
+Container Name: p2p-containerlab-topology-8
+Average CPU Usage: 0.23 %
+Average Memory Usage: 0.38 %
+
+Container Name: p2p-containerlab-topology-58
+Average CPU Usage: 0.22 %
+Average Memory Usage: 0.50 %
+
+Container Name: p2p-containerlab-topology-28
+Average CPU Usage: 0.26 %
+Average Memory Usage: 0.48 %
+
+Container Name: p2p-containerlab-topology-45
+Average CPU Usage: 0.50 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-64
+Average CPU Usage: 0.30 %
+Average Memory Usage: 0.48 %
+
+Container Name: p2p-containerlab-topology-32
+Average CPU Usage: 0.24 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-56
+Average CPU Usage: 0.34 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-75
+Average CPU Usage: 0.31 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-63
+Average CPU Usage: 0.42 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-25
+Average CPU Usage: 0.23 %
+Average Memory Usage: 0.50 %
+
+Container Name: p2p-containerlab-topology-35
+Average CPU Usage: 0.30 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-34
+Average CPU Usage: 0.84 %
+Average Memory Usage: 0.50 %
+
+Container Name: p2p-containerlab-topology-60
+Average CPU Usage: 0.16 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-62
+Average CPU Usage: 0.24 %
+Average Memory Usage: 0.50 %
+
+Container Name: p2p-containerlab-topology-26
+Average CPU Usage: 0.63 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-12
+Average CPU Usage: 0.24 %
+Average Memory Usage: 0.48 %
+
+Container Name: p2p-containerlab-topology-70
+Average CPU Usage: 0.35 %
+Average Memory Usage: 0.47 %
+
+Container Name: p2p-containerlab-topology-31
+Average CPU Usage: 0.94 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-69
+Average CPU Usage: 0.23 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-6
+Average CPU Usage: 0.20 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-5
+Average CPU Usage: 0.38 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-37
+Average CPU Usage: 0.47 %
+Average Memory Usage: 0.51 %
+
+Container Name: p2p-containerlab-topology-14
+Average CPU Usage: 0.41 %
+Average Memory Usage: 0.47 %
+
+Container Name: p2p-containerlab-topology-2
+Average CPU Usage: 6.38 %
+Average Memory Usage: 0.62 %
+
+Container Name: p2p-containerlab-topology-68
+Average CPU Usage: 0.20 %
+Average Memory Usage: 0.77 %
+
+Container Name: p2p-containerlab-topology-27
+Average CPU Usage: 1.35 %
+Average Memory Usage: 0.79 %
+
+Container Name: p2p-containerlab-topology-53
+Average CPU Usage: 0.34 %
+Average Memory Usage: 0.75 %
+
+Container Name: p2p-containerlab-topology-trackerPeer
+Average CPU Usage: 0.25 %
+Average Memory Usage: 0.37 %
+
+Container Name: p2p-containerlab-topology-lectureStudioServer
+Average CPU Usage: 1.81 %
+Average Memory Usage: 1.49 %
+
+Total Average CPU Usage: 37.61 %
+Total Average Memory Usage: 46.44 %

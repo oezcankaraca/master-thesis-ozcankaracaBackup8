@@ -1,0 +1,12 @@
+****CPU Usage Seconds Total****
+Legend —> {{name}}
+PromQL query —>
+rate(container_cpu_usage_seconds_total{name=~"p2p-containerlab-topology-.*", name!="p2p-containerlab-topology-prometheus", name!="p2p-containerlab-topology-cadvisor", name!="p2p-containerlab-topology-grafana", name!="p2p-containerlab-topology-trackerPeer"}[2m])
+Transformation —> ^.*p2p-containerlab-topology-(.*)$
+
+
+****Memory Usage Bytes****
+Legend —> {{name}}
+PromQL query —> container_memory_usage_bytes{name=~"p2p-containerlab-topology-.*", name!="p2p-containerlab-topology-prometheus", name!="p2p-containerlab-topology-cadvisor", name!="p2p-containerlab-topology-grafana"}
+
+

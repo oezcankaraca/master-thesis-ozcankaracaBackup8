@@ -1,0 +1,23 @@
+name: containerlab-monitoring
+prefix: p2p
+
+topology:
+  nodes:
+    grafana:
+      kind: linux
+      image: grafana/grafana:8.4.2
+      ports:
+        - "3000:3000"
+      env:
+        GF_RENDERING_SERVER_URL: "http://image-renderer:8081/render"
+        GF_RENDERING_CALLBACK_URL: "http://grafana:3000"
+        GF_LOG_FILTERS: "rendering:debug"
+        GF_SECURITY_RENDERER_TOKEN: "meinGeheimesToken123"
+
+    image-renderer:
+      kind: linux
+      image: grafana/grafana-image-renderer:3.6.1
+      env:
+        ENABLE_METRICS: "true"
+        AUTH_TOKEN: "meinGeheimesToken123"
+

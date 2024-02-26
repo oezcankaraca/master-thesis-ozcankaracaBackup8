@@ -1,0 +1,148 @@
+INFO[0000] Containerlab v0.50.0 started                 
+INFO[0000] Parsing & checking topology file: containerlab-topology.yml 
+INFO[0000] Creating docker network: Name="fixedips", IPv4Subnet="172.100.100.0/24", IPv6Subnet="", MTU='ל' 
+INFO[0000] Creating lab directory: /home/ozcankaraca/Desktop/master-thesis-ozcankaraca/java-program-for-container/src/main/java/clab-containerlab-topology 
+INFO[0000] Creating container: "lectureStudioServer"    
+INFO[0000] Creating container: "trackerPeer"            
+INFO[0000] Creating container: "2"                      
+INFO[0000] Creating container: "3"                      
+INFO[0000] Creating container: "4"                      
+INFO[0000] Creating container: "5"                      
+INFO[0000] Creating container: "1"                      
+INFO[0001] Creating link: lectureStudioServer:eth4 <--> 4:eth1 
+INFO[0001] Creating link: lectureStudioServer:eth1 <--> 1:eth1 
+INFO[0001] Creating link: lectureStudioServer:eth3 <--> 3:eth1 
+INFO[0001] Creating link: lectureStudioServer:eth5 <--> 5:eth1 
+INFO[0001] Creating link: lectureStudioServer:eth2 <--> 2:eth1 
+INFO[0001] Adding containerlab host entries to /etc/hosts file 
+INFO[0001] Adding ssh config for containerlab nodes     
+INFO[0037] Executed command "sleep 5" on the node "1". stdout: 
+INFO[0037] Executed command "/bin/sh -c while ! ping -c 1 172.100.100.12 > /dev/null; do echo \"Waiting for lectureStudioServer\"; sleep 1; done" on the node "1". stdout: 
+INFO[0037] Executed command "chmod +x /app/connection-details-peer.sh" on the node "1". stdout: 
+INFO[0037] Executed command "./connection-details-peer.sh" on the node "1". stdout:
+
+--SOURCE_PEER: 1--
+
+Receiving Configuration:
+Info: Configuring the network interface with the following details for 1
+Network Details--> Interface: eth1 IP Address: 172.20.21.3
+Info: New IP address 172.20.21.3 added for interface eth1
+
+--------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO[0037] Executed command "sleep 5" on the node "2". stdout: 
+INFO[0037] Executed command "/bin/sh -c while ! ping -c 1 172.100.100.12 > /dev/null; do echo \"Waiting for lectureStudioServer\"; sleep 1; done" on the node "2". stdout: 
+INFO[0037] Executed command "chmod +x /app/connection-details-peer.sh" on the node "2". stdout: 
+INFO[0037] Executed command "./connection-details-peer.sh" on the node "2". stdout:
+
+--SOURCE_PEER: 2--
+
+Receiving Configuration:
+Info: Configuring the network interface with the following details for 2
+Network Details--> Interface: eth1 IP Address: 172.20.22.3
+Info: New IP address 172.20.22.3 added for interface eth1
+
+--------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO[0037] Executed command "sleep 5" on the node "3". stdout: 
+INFO[0037] Executed command "/bin/sh -c while ! ping -c 1 172.100.100.12 > /dev/null; do echo \"Waiting for lectureStudioServer\"; sleep 1; done" on the node "3". stdout: 
+INFO[0037] Executed command "chmod +x /app/connection-details-peer.sh" on the node "3". stdout: 
+INFO[0037] Executed command "./connection-details-peer.sh" on the node "3". stdout:
+
+--SOURCE_PEER: 3--
+
+Receiving Configuration:
+Info: Configuring the network interface with the following details for 3
+Network Details--> Interface: eth1 IP Address: 172.20.23.3
+Info: New IP address 172.20.23.3 added for interface eth1
+
+--------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO[0037] Executed command "sleep 5" on the node "4". stdout: 
+INFO[0037] Executed command "/bin/sh -c while ! ping -c 1 172.100.100.12 > /dev/null; do echo \"Waiting for lectureStudioServer\"; sleep 1; done" on the node "4". stdout: 
+INFO[0037] Executed command "chmod +x /app/connection-details-peer.sh" on the node "4". stdout: 
+INFO[0037] Executed command "./connection-details-peer.sh" on the node "4". stdout:
+
+--SOURCE_PEER: 4--
+
+Receiving Configuration:
+Info: Configuring the network interface with the following details for 4
+Network Details--> Interface: eth1 IP Address: 172.20.24.3
+Info: New IP address 172.20.24.3 added for interface eth1
+
+--------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO[0037] Executed command "sleep 5" on the node "5". stdout: 
+INFO[0037] Executed command "/bin/sh -c while ! ping -c 1 172.100.100.12 > /dev/null; do echo \"Waiting for lectureStudioServer\"; sleep 1; done" on the node "5". stdout: 
+INFO[0037] Executed command "chmod +x /app/connection-details-peer.sh" on the node "5". stdout: 
+INFO[0037] Executed command "./connection-details-peer.sh" on the node "5". stdout:
+
+--SOURCE_PEER: 5--
+
+Receiving Configuration:
+Info: Configuring the network interface with the following details for 5
+Network Details--> Interface: eth1 IP Address: 172.20.25.3
+Info: New IP address 172.20.25.3 added for interface eth1
+
+--------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO[0037] Executed command "sleep 5" on the node "lectureStudioServer". stdout: 
+INFO[0037] Executed command "chmod +x /app/connection-details-superpeer.sh" on the node "lectureStudioServer". stdout: 
+INFO[0037] Executed command "./connection-details-superpeer.sh" on the node "lectureStudioServer". stdout:
+
+--SOURCE_PEER: lectureStudioServer--
+
+Sending Configuration:
+Info: Configuring Interface: eth1 with IP: 172.20.21.3 for connection to Peer: 1
+Info: For Source Peer: lectureStudioServer, a new IP Address: 172.20.21.2, with Interface: eth1, has been configured.
+Info: Connection properties: Source lectureStudioServer, Target 1, IP 172.20.21.3 - Latency: 56.71ms, Bandwidth: 5962kbps, Packet Loss: 0.0024%
+
+
+Sending Configuration:
+Info: Configuring Interface: eth2 with IP: 172.20.22.3 for connection to Peer: 2
+Info: For Source Peer: lectureStudioServer, a new IP Address: 172.20.22.2, with Interface: eth2, has been configured.
+Info: Connection properties: Source lectureStudioServer, Target 2, IP 172.20.22.3 - Latency: 59.79ms, Bandwidth: 3302kbps, Packet Loss: 0.0150%
+
+
+Sending Configuration:
+Info: Configuring Interface: eth3 with IP: 172.20.23.3 for connection to Peer: 3
+Info: For Source Peer: lectureStudioServer, a new IP Address: 172.20.23.2, with Interface: eth3, has been configured.
+Info: Connection properties: Source lectureStudioServer, Target 3, IP 172.20.23.3 - Latency: 63.04ms, Bandwidth: 5962kbps, Packet Loss: 0.0024%
+
+
+Sending Configuration:
+Info: Configuring Interface: eth4 with IP: 172.20.24.3 for connection to Peer: 4
+Info: For Source Peer: lectureStudioServer, a new IP Address: 172.20.24.2, with Interface: eth4, has been configured.
+Info: Connection properties: Source lectureStudioServer, Target 4, IP 172.20.24.3 - Latency: 57.22ms, Bandwidth: 5962kbps, Packet Loss: 0.0024%
+
+
+Sending Configuration:
+Info: Configuring Interface: eth5 with IP: 172.20.25.3 for connection to Peer: 5
+Info: For Source Peer: lectureStudioServer, a new IP Address: 172.20.25.2, with Interface: eth5, has been configured.
+Info: Connection properties: Source lectureStudioServer, Target 5, IP 172.20.25.3 - Latency: 58.80ms, Bandwidth: 5962kbps, Packet Loss: 0.0079%
+
+--Current tc configuration:--
+qdisc noqueue 0: dev lo root refcnt 2 
+qdisc noqueue 0: dev eth0 root refcnt 2 
+qdisc prio 1: dev eth4 root refcnt 7 bands 3 priomap 1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+qdisc netem 30: dev eth4 parent 1:3 limit 1000 delay 57.2ms loss 0.00239999% rate 5962Kbit
+qdisc prio 1: dev eth1 root refcnt 7 bands 3 priomap 1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+qdisc netem 30: dev eth1 parent 1:3 limit 1000 delay 56.7ms loss 0.00239999% rate 5962Kbit
+qdisc prio 1: dev eth3 root refcnt 7 bands 3 priomap 1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+qdisc netem 30: dev eth3 parent 1:3 limit 1000 delay 63ms loss 0.00239999% rate 5962Kbit
+qdisc prio 1: dev eth5 root refcnt 7 bands 3 priomap 1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+qdisc netem 30: dev eth5 parent 1:3 limit 1000 delay 58.8ms loss 0.00789999% rate 5962Kbit
+qdisc prio 1: dev eth2 root refcnt 7 bands 3 priomap 1 2 2 2 1 2 0 0 1 1 1 1 1 1 1 1
+qdisc netem 30: dev eth2 parent 1:3 limit 1000 delay 59.8ms loss 0.015% rate 3302Kbit
+
+--------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO[0037] Executed command "sleep 5" on the node "trackerPeer". stdout: 
+INFO[0037] 🎉 New containerlab version 0.51.3 is available! Release notes: https://containerlab.dev/rn/0.51/#0513
+Run 'containerlab version upgrade' to upgrade or go check other installation options at https://containerlab.dev/install/ 
++---+-----------------------------------------------+--------------+---------------+-------+---------+-------------------+--------------+
+| # |                     Name                      | Container ID |     Image     | Kind  |  State  |   IPv4 Address    | IPv6 Address |
++---+-----------------------------------------------+--------------+---------------+-------+---------+-------------------+--------------+
+| 1 | p2p-containerlab-topology-1                   | 855df1899986 | image-testbed | linux | running | 172.100.100.4/24  | N/A          |
+| 2 | p2p-containerlab-topology-2                   | 8a70f24c571b | image-testbed | linux | running | 172.100.100.6/24  | N/A          |
+| 3 | p2p-containerlab-topology-3                   | 041746ae384c | image-testbed | linux | running | 172.100.100.3/24  | N/A          |
+| 4 | p2p-containerlab-topology-4                   | b3d5fa4319f5 | image-testbed | linux | running | 172.100.100.2/24  | N/A          |
+| 5 | p2p-containerlab-topology-5                   | 66c35fa4893b | image-testbed | linux | running | 172.100.100.5/24  | N/A          |
+| 6 | p2p-containerlab-topology-lectureStudioServer | f434f66dd170 | image-testbed | linux | running | 172.100.100.12/24 | N/A          |
+| 7 | p2p-containerlab-topology-trackerPeer         | ef3a4bc379f8 | image-tracker | linux | running | 172.100.100.11/24 | N/A          |
++---+-----------------------------------------------+--------------+---------------+-------+---------+-------------------+--------------+
+
